@@ -1,0 +1,10 @@
+wyniki = {'LogReg': {'acc': 0.9667, 'prec': 0.9673, 'rec': 0.9667, 'f1': 0.9667}, 'DecisionTree': {'acc': 0.9333, 'prec': 0.9342, 'rec': 0.9333, 'f1': 0.9332}, 'RandomForest': {'acc': 0.9600, 'prec': 0.9610, 'rec': 0.9600, 'f1': 0.9601}}
+print('=' * 60)
+print(f"{'Model':<17}{'Acc':>9}{'Prec':>9}{'Rec':>9}{'F1':>9}")
+print('=' * 60)
+print(f"{'LogReg':<17}{wyniki['LogReg']['acc']:>9.4f}{wyniki['LogReg']['prec']:>9.4f}{wyniki['LogReg']['rec']:>9.4f}{wyniki['LogReg']['f1']:>9.4f}")
+print(f"{'DecisionTree':<17}{wyniki['DecisionTree']['acc']:>9.4f}{wyniki['DecisionTree']['prec']:>9.4f}{wyniki['DecisionTree']['rec']:>9.4f}{wyniki['DecisionTree']['f1']:>9.4f}")
+print(f"{'RandomForest':<17}{wyniki['RandomForest']['acc']:>9.4f}{wyniki['RandomForest']['prec']:>9.4f}{wyniki['RandomForest']['rec']:>9.4f}{wyniki['RandomForest']['f1']:>9.4f}")
+print('=' * 60)
+print(f"Srednia acc: {(wyniki['LogReg']['acc'] + wyniki['DecisionTree']['acc'] + wyniki['RandomForest']['acc']) / 3:.4f}")
+print(f"Srednia f1 : {(wyniki['LogReg']['f1'] + wyniki['DecisionTree']['f1'] + wyniki['RandomForest']['f1']) / 3:.4f}")
