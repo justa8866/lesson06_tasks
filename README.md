@@ -1,14 +1,15 @@
-# Lekcja 06 - Kolekcje II: slowniki, zbiory i krotki
+# Lekcja 6 — słowniki, zbiory i krotki
 
-Rozwiazania 18 zadan praktycznych (strony 29-37 materialu kursowego).
+Rozwiązania 18 zadań z Pythona dotyczących słowników, zbiorów i krotek.
 
-## Uruchamianie
-Kazdy plik jest samodzielny. Przyklad:
+Każde zadanie znajduje się w osobnym pliku, od `zadanie_01.py` do `zadanie_18.py`. Numer w nazwie pliku odpowiada numerowi zadania.
+
+## Uruchomienie
+
+Wymagany jest Python 3.9 lub nowszy. Zadania nie wymagają dodatkowych bibliotek.
+
+W terminalu, w folderze z zadaniami, uruchom wybrany plik, np.:
 
 ```bash
 python zadanie_01.py
 ```
-
-Pliki `zadanie_01.py` ... `zadanie_18.py` odpowiadaja numerom zadan.
-Rozwiazania nie uzywaja petli `for`/`while`, instrukcji `if`, `lambda` ani funkcji wlasnych.
-Python 3.9+ (operator `|` dla slownikow).
